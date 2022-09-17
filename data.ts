@@ -32,3 +32,5 @@ function welcome(name: string): string {
     return `Please log in`;
   }
 }
+
+console.log(welcome("Alice Margatroid"));
