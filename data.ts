@@ -23,3 +23,12 @@ const data: {
     isLoggedIn: true,
   },
 ];
+
+function welcome(name: string): string {
+  const user = data.find((el) => el.name === name);
+  if (user?.isLoggedIn) {
+    return `Welcome back, ${name}`;
+  } else {
+    return `Please log in`;
+  }
+}
