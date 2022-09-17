@@ -16,4 +16,10 @@ const data: {
     email: "alicemarga@ukr.net",
     isLoggedIn: false,
   },
+  {
+    name: "Yukari Yakumo",
+    age: 1500,
+    email: "yukaripurple@gensokyo.com",
+    isLoggedIn: true,
+  },
 ];
